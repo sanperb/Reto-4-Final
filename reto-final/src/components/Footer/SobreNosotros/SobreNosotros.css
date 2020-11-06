@@ -1,0 +1,61 @@
+/* Estilo del container de información de la web */
+
+.info-pag {
+    background-color: #766d81;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+h3{
+    margin-left:0;
+    margin-bottom: 1em;
+}
+
+.aboutus-div {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 2em;
+    border-radius: 20px;
+    border-radius: 20px;
+
+}
+
+.editora {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 2em;
+    border-radius: 20px;
+    max-width: 40em;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.sandra-text {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-left: 1em;
+}
+
+.name{
+margin-top:1.5em;
+}
+
+.article-author .cv-resume .email {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}

@@ -1,0 +1,32 @@
+/* Estilo del botón para volver a la página principal desde la página de detalles de cada pelicula */
+
+
+.DetailInfoHomeButton {
+  position: absolute;
+  right: 2em;
+  top: 12em;
+  background-color: #766d81;
+  border-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  z-index: 2;
+}
+
+.DetailInfoHomeButton:hover{
+  text-decoration: none;
+  background-color: #b7e1dc;
+  border: grey thin solid;
+  color:  #766d81;
+  font-weight: bold;
+}
+
+@media (max-width: 520px) {
+  .DetailInfoHomeButton {
+    display: none;
+  }
+}

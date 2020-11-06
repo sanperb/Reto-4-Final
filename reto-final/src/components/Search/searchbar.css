@@ -1,0 +1,126 @@
+/* Estilos de la barra de búsqueda principal de la app */
+
+.search-form {
+    padding: 4px;
+    padding-top:0;
+    padding-left:3em;
+    padding-bottom:1em;
+    background-color: #f78083;
+}
+
+.ant-input.ant-input-lg{
+    width: 80em;
+}
+
+.table {
+    font-size: 13px;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-lg.ant-input-search-button {
+    color: #766d81;
+    border: solid thin #766d81;
+    background-color: #eca3a6;
+    margin-top: -5em;
+    height: 3em;
+}
+
+.ant-table-column-sorters {
+    padding-left: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ant-table-cell.SearchTableTitle {
+    padding-left: 2em;
+
+}
+
+.ant-table-cell.SearchTableGenres {
+    padding-right: 2em;
+    font-size: 16px;
+
+}
+
+th.ant-table-cell.SearchTableGenres {
+    padding-left: 2em;
+    padding-bottom: 0.9em;
+}
+
+td.ant-table-cell.SearchTableGenres {
+    padding-right: 2em;
+    font-size: 13px;
+
+}
+
+.ant-pagination.ant-table-pagination.ant-table-pagination-right {
+    display: flex;
+    list-style: none;
+}
+
+.ant-pagination-item.ant-pagination-item-1.ant-pagination-item-active {
+    font-size: 18px;
+    display: none;
+
+}
+
+.ant-pagination-item.ant-pagination-item-1{
+    font-size: 18px;
+    padding:0.5em
+}
+.ant-pagination-item.ant-pagination-item-2 {
+    font-size: 18px;
+    padding:0.5em
+}
+
+.ant-pagination-item-link {
+    border: solid thin #f78083;
+
+}
+
+.ant-pagination-prev.ant-pagination-disabled{
+    margin-left: 76em;
+
+}
+
+
+.ant-pagination-prev{
+    margin-left: 76em;
+}
+
+.ant-table-cell.SearchTableTitle{
+    vertical-align: middle;
+}
+
+.ant-table-cell.SearchTableGenres{
+    vertical-align: middle;
+}
+
+.ant-table-cell.SearchTableVoteAverage{
+    vertical-align: middle;
+}
+
+.ant-table-cell.SearchTableVoteCount{
+    vertical-align: middle;
+}
+
+.ant-table-cell.SearchTablePopularity{
+    vertical-align: middle;
+}
+
+.ant-table-cell.SearchTableReleaseDate{
+    vertical-align: middle;
+}
+
+.title-table-container{
+background-color: rgb(228, 228, 228);
+
+}
+
+.name-table{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 0;
+
+}

@@ -1,0 +1,45 @@
+/* Estilo de la página de detalles de cada película */
+
+.Detail {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+
+  }
+  
+  .DetailPosterWrapper {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 4em;
+  }
+  
+  .DetailInfoWrapper {
+    text-align: left;
+    padding-top: 2em;
+    margin-left: -3em;
+    margin-right: 4em;
+    max-width: 600px;
+  }
+  
+  .poster{
+    width: 500px;
+  }
+
+  .ant-list-header{
+      text-align: center;
+      padding-bottom: 1em;
+  }
+
+  .ant-list-items{
+      list-style: none;
+  }
+
+  .ant-list-item.ant-list-item-no-flex{
+      padding-top: 1em;
+      padding-bottom: 1em;
+      border-bottom: thin solid #bfb7c9;
+  }
+
+  

@@ -1,0 +1,59 @@
+
+/* Estilos de los listados de las películas en los links del Header */
+
+.movie-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    background-color: whitesmoke;
+}
+
+.movie {
+    display: flex;
+    align-items: stretch;
+    background-color:#DBDBDB;
+    margin: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 15px;
+
+}
+
+h3 {
+    text-align: center;
+    margin-top: -0.3em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+}
+
+h5 {
+    margin-bottom:0;
+}
+
+span{
+font-size:15px;
+margin-bottom: 0.3em;
+}
+
+.img-info-movie{
+    display: inline;
+    vertical-align:middle;
+	margin:auto;
+    width: 220px;
+    height: 320px;
+
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    max-width: 40em;
+    padding: 0.5em;
+    padding-left: 2em;
+}

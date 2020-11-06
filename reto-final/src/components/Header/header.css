@@ -1,0 +1,82 @@
+/* Estilos del Header */
+
+header {
+    background-color: #f78083;
+}
+
+.barra-navegacion {
+    background-color: #f78083;
+    border-width: thick;
+}
+
+.logoweb {
+    margin-top: -0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Logos superiores del header */
+
+.twitter,
+.facebook,
+.instagram,
+.youtube {
+
+    color: #766d81;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.twitter:hover,
+.facebook:hover,
+.instagram:hover,
+.youtube:hover {
+    color: white;
+}
+
+.language{
+    color: #766d81;
+    font-size: 1.7em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.configuration,.user,.power{
+    color: #766d81;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.language:hover,.configuration:hover,.user:hover,.power:hover{
+    color: white;
+
+}
+
+/* Estilos del link del menú principal de header */
+
+.nav-item {
+    margin: -1.5em;
+    padding-right: 6em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.link-header {
+    color: rgb(87, 85, 85);
+}
+
+.link-header:hover {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.menu{
+    margin-left:2.5em;
+}
+
+.busqueda{
+    float:right;
+}

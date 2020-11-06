@@ -1,0 +1,52 @@
+/* Footer */
+footer{
+    background-color:#b7e1dc;
+    bottom: 0;
+}
+
+.link-footer{
+    color: rgb(77, 77, 77);
+}
+.link-footer:hover{
+    text-decoration: none;
+    color: #766d81;
+}
+
+.container-fluid{
+    display: flex;
+    padding: 1em;
+    align-items: center; 
+
+}
+.copyright-container{
+    margin: auto;
+    color: #b7e1dc;
+    padding: 0.5em;
+    background-color:#766d81;
+    font-size: 14px;
+}
+
+.github{
+    color:#b7e1dc;
+}
+.github:hover{
+    color:white;
+}
+
+.logoweb-footer{
+    margin-top: -1em;
+    margin-bottom: -1em;
+    margin-left:24em;
+}
+
+.aboutus-list{
+    margin-top:0.7em;
+    margin-bottom:-1em;
+    margin-left: 2em;
+}
+
+.nav-link.about-us{
+    overflow: hidden;
+white-space: nowrap;
+}
+
